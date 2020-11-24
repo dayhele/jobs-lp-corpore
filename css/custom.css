@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+* .btn-corpore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #03457B;
+  width: 270px;
+  height: 62px;
+  border: 2px solid #03457B;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 41px;
+  letter-spacing: 0.18px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  text-decoration: none;
+}
+
+* .btn-corpore:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #045996;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+#potrosPellets {
+  font-family: 'Poppins', sans-serif;
+}
+
+.sec-01 {
+  background-image: url("/img/sec-01-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.sec-01 .titulo {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.sec-01 .sub-titulo {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.sec-02 {
+  background-image: url("/img/picture-blue-stain.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 826px 756px;
+}
+
+.sec-02 .titulo {
+  color: #03457B;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.sec-02 .sub-titulo {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.sec-03 {
+  background: url("/img/blue-banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 3;
+  top: -104px;
+}
+
+.sec-03 .titulo {
+  margin-top: 82px;
+  font-size: 42px;
+  font-weight: 600;
+  color: white;
+}
+
+.sec-03 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px;
+  list-style: none;
+  color: white;
+  font-weight: 300;
+}
+
+.sec-03 ul li img {
+  padding-right: 18px;
+}
+
+.sec-03 p {
+  color: white;
+  font-weight: 400;
+}
+
+.sec-03 .sub-titulo {
+  color: white;
+  font-weight: 600;
+}
+
+.sec-04 {
+  bottom: 50px;
+}
+
+.sec-05 {
+  background-image: url("/img/Grupo 628.png");
+}
+
+.sec-05 .titulo {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+@media (max-width: 1356px) {
+  .sec-02 {
+    background-size: 826px 756px;
+  }
+}
+
+@media (max-width: 1356px) and (max-width: 1296px) {
+  .sec-02 {
+    background-position-x: 470px;
+  }
+}
+
+@media (max-width: 1356px) and (max-width: 1200px) {
+  .sec-02 {
+    background-size: 924px 836px;
+  }
+}
+
+@media (max-width: 1356px) and (max-width: 996px) {
+  .sec-02 {
+    background-image: none;
+  }
+  .sec-03 .titulo {
+    margin-top: 116px;
+  }
+}
+
+@media (max-width: 1356px) and (max-width: 368px) {
+  .titulo {
+    font-size: 34px !important;
+  }
+}
+
+@media (max-width: 1356px) and (max-width: 756px) {
+  .sec-01 {
+    background: #FD880C;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
